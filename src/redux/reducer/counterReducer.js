@@ -9,13 +9,13 @@ const reducer = (state = INITIAL_STATE, action) => {
     case INCREMENT:
       return {
         ...state,
-        const: state.count + 1,
+        count: state.count + 1,
       };
 
     case DECREMENT:
       return {
         ...state,
-        const: state.count - 1,
+        count: state.count - 1,
       };
     default:
       return state;
